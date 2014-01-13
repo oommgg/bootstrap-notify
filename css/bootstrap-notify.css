@@ -1,6 +1,7 @@
-.notifications{position:fixed;}.notifications.top-right{right:10px;top:25px;}
+.notifications{position:fixed;z-index:9999;}.notifications.top-right{right:10px;top:25px;}
 .notifications.top-left{left:10px;top:25px;}
 .notifications.bottom-left{left:10px;bottom:25px;}
 .notifications.bottom-right{right:10px;bottom:25px;}
-.notifications>div{position:relative;z-index:9999;margin:5px 0px;}
-.notifications.center{top:48%;left:0;width:100%;}.notifications.center>div{margin:5px auto;width:20%;text-align:center;}
+.notifications>div{position:relative;margin:5px 0px;}
+.notifications.center{top:45%;left:0;width:100%;}.notifications.center>div{margin:5px auto;padding:30px;width:40%;text-align:center;}
+.notifications h1,.notifications h2,.notifications h3,.notifications h4,.notifications h5{margin:0;padding:0;}
