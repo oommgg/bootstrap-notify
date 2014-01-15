@@ -57,9 +57,11 @@
     this.options.onClose();
     $(this.$note).remove();
     this.options.onClosed();
+    this.$element.hide();
   };
 
   Notification.prototype.show = function () {
+    this.$element.show();
     if (this.options.fadeOut.enabled)
       this.$note.delay(this.options.fadeOut.delay || 3000).fadeOut('slow', $.proxy(Notification.onClose, this));
 

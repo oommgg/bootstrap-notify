@@ -14,7 +14,8 @@
 
 .notifications {
   position: fixed;
-  z-index: 9999;
+  z-index: 15000;
+  display: none;
 
   &.top-right {
     right: @right;
@@ -57,5 +58,11 @@
   h1, h2, h3, h4, h5 {
       margin:0;
       padding:0;
+  }
+
+  button.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
   }
 }
